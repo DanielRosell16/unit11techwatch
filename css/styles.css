@@ -395,6 +395,9 @@ main {
     margin: 0;
     padding: .5rem 0; }
 
+div.rightImg Img {
+  width: 100%; }
+
 /*----------- FOOTER --------------*/
 footer {
   grid-area: footer;
@@ -424,10 +427,12 @@ footer {
 
   /*----------- MAIN --------------*/
   main div.rightImg img {
-    float: right; }
+    float: right;
+    width: 50%; }
   main div.leftImg img {
     float: left;
-    padding-right: 10px; }
+    padding-right: 10px;
+    width: 50%; }
   main div.leftImg {
     padding: 15px; }
 
