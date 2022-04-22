@@ -1,0 +1,56 @@
+
+div#pageWrapper {
+    grid-template-areas: 
+        "header header"
+        "navigation content"
+        "footer footer";
+    grid-template-columns: 150px auto;
+}
+
+/*----------- BODY --------------*/
+
+    
+
+
+
+
+/*----------- HEADER --------------*/
+
+
+
+/*----------- NAVIGATION --------------*/
+
+a.myjump {
+    display: none;
+} 
+
+nav {
+    height: auto;
+}
+
+
+
+/*----------- MAIN --------------*/
+
+main {
+    div.rightImg img {
+            float: right;
+    }
+
+
+
+    div.leftImg img {
+        float: left;
+        padding-right: 10px;
+    }
+    div.leftImg {
+        padding: 15px
+
+    }
+
+}
+
+
+
+/*----------- FOOTER --------------*/
+    
