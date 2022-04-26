@@ -29,6 +29,7 @@ header {
     background-color: white;
 
     display: flex;
+
     h1 {margin: 0;}
     h2 {margin: 0; font-weight: normal;}
 }
@@ -102,6 +103,10 @@ main {
 }
 
 div.rightImg Img {
+    width: 100%;
+}
+
+div.leftImg img {
     width: 100%;
 }
 
